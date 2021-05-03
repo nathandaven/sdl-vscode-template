@@ -4,7 +4,6 @@ CXXFLAGS += `pkg-config --cflags sdl2 SDL2_image`
 LDFLAGS += `pkg-config --libs sdl2 SDL2_image`
 PROG := build/prog
 OBJS := $(patsubst src/%.cpp,obj/%.o, $(wildcard src/*.cpp))
-OBJS += $(patsubst src/sdl2-boilerplate/%.cpp,obj/sdl2-boilerplate/%.o, $(wildcard src/sdl2-boilerplate/*.cpp))
 DEPS := $(OBJS:.o=.d)
 
 PCH_SRC = src/PCH.hpp
