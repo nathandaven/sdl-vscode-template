@@ -2,6 +2,10 @@
 #ifndef PRECOMPILED_HEADER_HPP
 #define PRECOMPILED_HEADER_HPP
 
+// Add SDL libraries here
+#include "SDL2/SDL.h"
+#include "SDL2/SDL_image.h"
+
 // Typical stdafx.h
 #include <algorithm>
 #include <cstdio>
