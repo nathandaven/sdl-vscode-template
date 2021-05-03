@@ -6,8 +6,7 @@
 //
 //
 
-#include "SDL2/SDL.h"
-#include "SDL2/SDL_image.h"
+#include "Global.h"
 
 int main(int argc, const char *argv[])
 {
