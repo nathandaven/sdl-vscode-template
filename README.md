@@ -1,6 +1,7 @@
 # SDL C++ VS Code boilerplate
 
 Only tested on MacOS so far -- might work on windows with MinGW
+
 The VSCode accent bar is even themed to match the SDL logo!
 
 
