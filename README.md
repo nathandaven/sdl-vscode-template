@@ -7,11 +7,11 @@ Only tested on MacOS so far -- might work on windows with MinGW
 
 Install SDL2 and SDL2-image using brew, ie
 
-'brew install sdl2 sdl2-image'
+`brew install sdl2 sdl2-image`
 
 ### Run
 
-Press 'cmd + shift + b' to build 
+Press `cmd + shift + b` to build 
 
 
 # Downloads
