@@ -9,6 +9,8 @@ Install SDL2 and SDL2-image using brew, ie
 
 `brew install sdl2 sdl2-image`
 
+Make sure project is set to correct OS in bottom right
+
 ### Run
 
 Press `cmd + shift + b` to build 
