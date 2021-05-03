@@ -1,7 +1,6 @@
 CXX ?= g++
 MKDIR := mkdir -p
 CXXFLAGS += `pkg-config --cflags sdl2 SDL2_image`
-CXXFLAGS += `-pedantic -std=c++14`
 LDFLAGS += `pkg-config --libs sdl2 SDL2_image`
 PROG := build/prog
 OBJS := $(patsubst src/%.cpp,obj/%.o, $(wildcard src/*.cpp))
